@@ -89,3 +89,22 @@
     justify-content: center;
     align-items: center;
 }
+.logo-area
+{
+    width:192px ;
+    height:24px ;
+    display:flex ;
+    align-items: center;
+    gap: 12px;
+    
+}
+.logo{
+    width: 24px;
+    height: 24px;
+    background-color:aquamarine;
+    border-radius: 4px;
+}
+.Text-logo-area
+{
+    
+}
