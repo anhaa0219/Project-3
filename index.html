@@ -1,35 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project-3</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/index.css">
-</head>
-<body>
-<div class="main">
-    <div class="wrapper">
-<div class="main-body">
-    <div class="header">
-        <div class="logo-area">
-            <div class="logo"></div>
-            <div class="Text-logo-area">MD file Converter</div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    
+    <div class="main">
+        <!-- Gadnah -->
+      <div class="wrapper">
+        <!-- Dotorh -->
+        <div class="main-body">
+            <!-- Header -->
+          <div class="header">
+            <div class="logo-area">
+              <div class="logo"></div>
+              <div class="Text-logo-area">MD file Converter</div>
+            </div>
+                <!-- Active buttontoi heseg -->
+            <div class="active-button-container">
+              <div id="clear-button" class="active-button-1">Clear</div>
+              <div id="save-button" class="active-button-2">Save changes</div>
+              <div id="save-alert">Saved successfully ✓</div>
+            </div>
+          </div>
+            <!-- Undsen heseg -->
+          <div class="body-1">
+                <!-- Panel 1 input-->
+            <div class="section-1">
+              <textarea
+                id="textarea-1"
+                placeholder="MD FILE HERE..."
+              ></textarea>
+            </div>
+                <!-- Hereggu heseg -->
+            <div class="section-divider"></div>
+                <!-- Panel 2 output -->
+            <div class="section-2">
+              <div id="textarea-2"></div>
+                <!-- Active button copy -->
+              <div id="copy-button"></div>
+            </div>
+          </div>
         </div>
-        <div class="active-button-container">
-            <div class="active-button-1">Clear</div>
-            <div class="active-button-2">Save changes</div>
-        </div>
+      </div>
     </div>
-    <div class="body-1">
-    <div class="section-1"></div>
-    <div class="section-divider"></div>
-    <div class="section-2"></div>
-    </div>
-</div>
-</div>
-</div>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
 </html>
