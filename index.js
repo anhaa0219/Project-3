@@ -114,5 +114,5 @@ copy.addEventListener("click", function () {
 const savedText = localStorage.getItem("savedText");
 if (savedText) {
   input.value = savedText;
-  output.innerHTML = mmarked.parse(savedText);
+  output.innerHTML = marked.parse(savedText);
 }
