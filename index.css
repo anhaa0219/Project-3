@@ -114,14 +114,15 @@ body {
   width: 90%;
   height: 85%;
   padding: 16px;
-  background: #7686a5; 
+  background: #7686a5;
   color: #1f2937;
-  border: 1px dotted  #000;;
+  border: 1px dotted #000;
   border-radius: 8px;
   font-size: 14px;
   overflow: auto;
   white-space: pre-wrap;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
   outline: none;
   color: white;
 }
@@ -187,7 +188,7 @@ body {
   font-size: 10px;
   opacity: 0;
   transform: translateY(-20px);
-  transition: .3s;
+  transition: 0.3s;
   pointer-events: none;
 }
 
@@ -206,4 +207,11 @@ body {
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+#textarea-2 h1,
+#textarea-2 h2,
+#textarea-2 h3 {
+  border-bottom: 1px solid #eaecef; /* Divider line color */
+  padding-bottom: 0.3em;             /* Space between text and line */
+  margin-bottom: 16px;              /* Space after the line */
 }
